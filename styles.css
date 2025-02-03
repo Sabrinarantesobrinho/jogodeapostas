@@ -1,0 +1,187 @@
+body{
+    background-image: url("imagem/backgroud1.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    width: 70%;
+    margin: 0px auto;
+
+}
+
+.slogan{
+    width: 70%;
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    margin: 10px 0px;
+    text-align: center;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: rgb(210, 30, 84);
+    background-color: antiquewhite;
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+nav{
+   background-color: darkgray; 
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a:link, a:visited{
+    display: inline-block;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0px 25px;
+}
+
+nav a:hover{ 
+   background-color: rgb(210, 30, 84); 
+   border-radius: 5px;
+}
+
+
+.linkativo{
+    background-color: rgb(210, 30, 84); 
+    border-radius: 5px;
+}
+
+
+
+
+
+section{
+    /*background-color: aqua;*/
+    width: 100%;
+    float: left;
+    /*background-color: white;*/
+    border-radius: 5px;
+    margin: 5px 0px; 
+
+}
+
+article{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 5px 0px;
+    float: left;
+
+}
+.titulonoticia{
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+    color: rgb(210, 30, 84);
+}
+
+.info{
+    font-size: 12px;
+    color: darkgray;
+    font-style: italic;
+
+}
+
+
+aside{
+    width: 27%;
+    background-color: white;
+    float: left;
+    margin: 10px 0px 0px 10px;
+    border-radius: 5px;
+    padding: 1% 2%;
+
+}
+
+footer{
+    background-color: darkgray;
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.rodape{
+    color: white;
+ 
+}
+
+
+.titulo1{
+    width: 70%;
+   /* background-color: aqua;*/
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+    color: rgb(210, 30, 84);
+    float: left;
+
+}
+
+.titulo2, .titulo3, .titulo4{
+   /* background-color: aqua; */
+    width: 10%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+    color: rgb(210, 30, 84);
+
+}
+
+
+.imgPlayer{
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+}
+
+
+.pista1{
+    /*background-color: aqua;*/
+    float: left;
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    
+}
+
+
+.tabuleiro{
+    background-color: white;
+
+}
+
+.box{
+   /* background-color: aqua;  */
+    width: 10%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(210, 30, 84);
+    margin: 0px;
+}

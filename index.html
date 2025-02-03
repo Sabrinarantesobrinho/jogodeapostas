@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CET 97</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p class="slogan">Jogo das Apostas</p>
+    </header>
+
+    <section class="tabuleiro">
+        <div class="titulo1"><span id="titulo1">Faz a tua aposta</span></div>
+        <div class="titulo2"><span>Aposta</span></div>
+        <div class="titulo3"><span>Metros</span></div>
+        <div class="titulo4"><span>Vitórias</span></div>
+
+        <div class="pista1"><img src="imagem/Player1.gif" alt="Cavalo Pista1" class="imgPlayer" id="Player1"></div>
+        <div class="box"><input type="text" size="3" id="txtaposta1"></div>
+        <div class="box"><span id="metrosPlayer1">0/100</span></div>
+        <div class="box"><span id="vitoriaPlayer1">0</span></div>
+
+        <div class="pista1"><img src="imagem/Player2.gif" alt="Cavalo Pista2" class="imgPlayer" id="Player2"></div>
+        <div class="box"><input type="text" size="3" id="txtaposta2"></div>
+        <div class="box"><span id="metrosPlayer2">0/100</span></div>
+        <div class="box"><span id="vitoriaPlayer2">0</span></div>
+
+        <div class="pista1"><img src="imagem/Player3.gif" alt="Cavalo Pista3" class="imgPlayer" id="Player3"></div>
+        <div class="box"><input type="text" size="3" id="txtaposta3"></div>
+        <div class="box"><span id="metrosPlayer3">0/100</span></div>
+        <div class="box"><span id="vitoriaPlayer3">0</span></div>
+    </section>
+
+    <section class="tabuleiro">
+        <div class="titulo1"><input type="button" value="Start Race..." onclick="startrace()"></div>
+        <div class="titulo2"><span>Créditos</span></div>
+        <div class="titulo3"><span id="fichas">100</span></div>
+    </section>
+
+    <footer>
+        <p class="rodape">&copy; Sabrina Arantes 2025</p>
+    </footer>
+
+    <script src="javascript.js"></script> </body>
+</html>
